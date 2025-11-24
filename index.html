@@ -8,30 +8,67 @@
             padding-left: 2%;
             padding-right: 2%;
         }
+
+        table tr,
+        table th,
+        table td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 50%;
+        }
     </style>
 </head>
 
 <body>
     <!-- heading -->
-    <h1>Karibu project</h1>
+    <h1 style="color: blue; 
+    font-size: 30px; 
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Karibu Groceries LTD</h1>
 
     <!-- sub-heading h2-->
-    <h2>Introduction</h2>
+    <h2><mark>Introduction</mark></h2>
 
     <!-- paragraph -->
-    <p>Karibu groceries LTD is a wholesale produce distributor dealing in cereals with 2 Branches in
+    <p><b><i>Karibu groceries LTD</i></b> is a wholesale produce distributor dealing in cereals with 2 Branches in
         different locations. Over time all operations have been recorded in ruled black books. This has
         prompted the owner to seek for a software solution.
     </p>
     <div class="image-container">
-        <img height="200" width="48%" src="images/tomato.jpeg">
-        <img height="200" width="48%" src="images\images.jpeg" alt="tomato plant">
+        <img height="250" width="48%" src="images/tomato.jpeg">
+        <img height="250" width="48%" src="images\images.jpeg" alt="tomato plant">
 
     </div>
 
     <h2>The business</h2>
     <p>KGL deals in Beans, Grain Maize, Cow peas, G-nuts, Soybeans.</p>
 
+    <!--TABLE-->
+    <table>
+        <!--user data-->
+        <tr>
+            <th>User id</th>
+            <th>Email</th>
+            <th>Contact</th>
+        </tr>
+
+        <!--daniel's record-->
+        <tr>
+            <td>1</td>
+            <td>Daniel@gmail.com</td>
+            <td>0784758948</td>
+        </tr>
+
+        <!--daniel's record-->
+        <tr>
+            <td>2</td>
+            <td>Alex@gmail.com</td>
+            <td>0779837363</td>
+        </tr>
+    </table>
+
+    <br>
     <!--dealing with links-->
     <a href="about.html" target="_blank">About Karibu</a><br>
     <a href="https://refactory.academy/" target="_blank">visit our site</a>
